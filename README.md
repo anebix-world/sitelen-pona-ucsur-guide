@@ -129,21 +129,21 @@ Installing the font:
 
 > jan Nasaka (`@harger` lon ilo Siko) li pana e sona ni tawa mi. ona li pona mute a! :)
 
-The above method may not be supported on your device. One alternative is to use the Aliucord Discord client and set a custom font. *(This method causes small font discrepancies in the Aliucord client).* The setup instructions are below:
+The above method may not be supported on your device. One alternative is to use the Revenge, Bunny, or Aliucord Discord clients and set a custom font. *(This method causes small font discrepancies in the client of choice).* The setup instructions are below:
 
 
 <details>
 <summary>
-<b>List format for instructions (Bunny/Revenge)</b>
+<b>List format for instructions (Revenge/Bunny)</b>
 </summary>
-
+<br>
 See [here](./images/revenge-install.gif) for a quick walkthrough
 
 1. Install Revenge or Bunny. As of January 2025, you should use Revenge because Bunny is not actively being developed. You can download it from it's [Github page](https://github.com/revenge-mod/revenge-manager/releases)
 
 2. Copy [this](https://raw.githubusercontent.com/anebix-world/discord-css/refs/heads/main/json/fonts/nasin-nanpa.json) link (you should be able to press and hold) to your clipboard.
 
-3. Tap your profile tab, at the top right tap the settings gear icon.
+3. Open Revenge/Bunny and tap your profile tab, then at the top right tap the settings gear icon.
 
 4. Scroll down to the Revenge/Bunny header, and tap the "Fonts" tab.
 
