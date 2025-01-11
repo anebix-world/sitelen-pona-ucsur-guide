@@ -136,6 +136,7 @@ The above method may not be supported on your device. One alternative is to use 
 <summary>
 <b>List format for instructions (Revenge/Bunny)</b>
 </summary>
+
 See [here](./images/revenge-install.gif) for a quick walkthrough
 
 1. Install Revenge or Bunny. As of January 2025, you should use Revenge because Bunny is not actively being developed. You can download it from it's [Github page](https://github.com/revenge-mod/revenge-manager/releases)
