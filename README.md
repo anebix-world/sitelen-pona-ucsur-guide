@@ -13,24 +13,24 @@ The current recommended fonts for sitelen pona are:
 - [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd.shtml)
 
   ![an image preview of fairfax hd](./images/fairfaxhd.png)
-  
+
   This font by jan Lepeka (`@rebeccargb`) supports the latest (2024-02-20) version of UCSUR. It *does not* look a bit nasa, however it is mostly readable.
 
 - [nasin nanpa](https://github.com/ETBCOR/nasin-nanpa)
 
   ![an image preview of nasin nanpa](./images/nasin-nanpa.png)
-  
+
   This is an alternative font, actively being developed by jan Itan (`@etbcor`). It is monospace, and supports cartouches, combination glyphs, and long glyphs (pi, tawa & lon). This font supports the 2024-02-20 version of UCSUR, and is used in [*su*](https://www.amazon.com/dp/0978292375)!
 
 - [sitelen seli kiwen juniko (mono)](https://www.kreativekorp.com/software/fonts/sitelenselikiwen)
-    
+
   ![an image preview of sitelen seli kiwen](./images/sitelenselikiwen.png)
-    
+
   This font by jan Lepeka (`@rebeccargb`) supports the most recent version of UCSUR (2024-02-20). It's personally my favorite! There are proportional *(glyphs take up varying amounts of space)* and monospaced *(glyphs take up the same amount of space)* versions of the font. Monospaced fonts in general are recommended for sitelen pona (both of the above fonts are monospaced). **sitelen seli kiwen juniko mono**, the monospaced version of sitelen seli kiwen juniko is used in the css below, fyi.
 
 If you are unsure of which font to pick, I would recommend nasin nanpa.
 
-Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord. 
+Once you have installed any of these fonts you are done, in many applications sitelen pona should render correctly, with the exception of websites, as they do not fall back to sitelen pona. This is an issue, because some applications are actually websites, with a notable example being Discord.
 
 ## Discord
 
@@ -51,7 +51,7 @@ Simply install the fake Helvetica Neue font, and it should result in Discord dis
 - Download the above font
 - Copy the file to `~/.local/share/fonts/`
 
-This method does not work on macOS or mobile devices. 
+This method does not work on macOS or mobile devices.
 
 ### Desktop
 
@@ -89,7 +89,7 @@ If the "Validator" section below shows that the theme is valid, you can now exit
 
 <!-- If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to add the css code above. Simply click on the extension with a discord tab open, and use the "Write new style as UserCSS" option. Be sure to write it for just "discord.com", as choosing a different URL will make it not work outside of the channel you were looking at. -->
 
-If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to help render sitelen pona. 
+If you use a web browser, you can use the [stylus extension](https://github.com/openstyles/stylus#releases) to help render sitelen pona.
 
 Simply install [this userstyle](https://userstyles.world/style/14920/sitelen-pona-o-lon-lipu-siko-a) and you're done!
 
@@ -131,6 +131,29 @@ Installing the font:
 
 The above method may not be supported on your device. One alternative is to use the Aliucord Discord client and set a custom font. *(This method causes small font discrepancies in the Aliucord client).* The setup instructions are below:
 
+
+<details>
+<summary>
+<b>List format for instructions (Bunny/Revenge) - See [here](./images/revenge-install.gif) for a quick walkthrough</b>
+</summary>
+1. Install Revenge or Bunny. As of January 2025, you should use Revenge because Bunny is not actively being developed. You can download it from it's [Github page](https://github.com/revenge-mod/revenge-manager/releases)
+
+2. Copy [this](https://raw.githubusercontent.com/anebix-world/discord-css/refs/heads/main/json/fonts/nasin-nanpa.json) link (you should be able to press and hold) to your clipboard.
+
+3. Tap your profile tab, at the top right tap the settings gear icon.
+
+4. Scroll down to the Revenge/Bunny header, and tap the "Fonts" tab.
+
+5. Tap "Install a font" and then "Import font entries from a link."
+
+6. Paste the link into the text bar, then tap "Import," then scroll down and again tap "Import."
+
+7. Tap "Apply" then "Restart" for the font to take effect.
+
+8. pini a! sitelen pona la o lukin pona
+
+</details>
+
 <details>
 <summary>
   <b>List format for instructions (Aliucord)</b>
@@ -140,7 +163,7 @@ The above method may not be supported on your device. One alternative is to use 
     * Please follow the [installation instructions](https://github.com/Aliucord/Aliucord?tab=readme-ov-file#-installation) in the readme
 
 2. Install the Themer plugin, which will allow you to change Aliucord's font.
-    * One method for doing this is pasting in the zip link (<https://github.com/Vendicated/AliucordPlugins/blob/builds/Themer.zip?raw=true>) into a Discord message, then clicking the link in Aliucord. 
+    * One method for doing this is pasting in the zip link (<https://github.com/Vendicated/AliucordPlugins/blob/builds/Themer.zip?raw=true>) into a Discord message, then clicking the link in Aliucord.
 
 3. In Aliucord, go to <kbd>User Settings</kbd>  (click your pfp in the botton right) -> <kbd>Plugin Settings</kbd> (near the bottom) -> <kbd>Themer</kbd> and toggle <kbd>Enable Custom Fonts</kbd>.
 
@@ -170,7 +193,7 @@ Now that sitelen pona is rendering properly, we need to be able to type it!
 
 There are three input engines for Windows: nasin Ajemi, nasin AHK, and Keyman
 
-You can download & install nasin Ajemi from [this link](https://github.com/dec32/Ajemi/releases/latest), see the [README](https://github.com/dec32/Ajemi) on how to use it. 
+You can download & install nasin Ajemi from [this link](https://github.com/dec32/Ajemi/releases/latest), see the [README](https://github.com/dec32/Ajemi) on how to use it.
 
 For nasin AHK, there is an [Auto Hotkey Script](./ahk-scripts/sitelen-pona-4.0.ahk?raw=1) (download with <kbd>Ctrl</kbd>+<kbd>S</kbd>) by jan Itan (`@etbcor`) for input. Write the toki pona word and then a \` (the letter under escape) to convert it into sitelen pona. You can also write `` [` `` and `` ]` `` for cartouches, as well as `` (` `` and `` )` `` for long glyphs. There is also a ["small" version of the script](./ahk-scripts/stl-pon-4.0.ahk?raw=1) that uses 3 letter codes for each word instead of typing the whole word.
 
@@ -234,7 +257,7 @@ ibus-daemon -drxR
 
 6. Add the sitelen pona input method. Go to `Input Methods` -> `Add` -> `English` -> *(scroll all the way down to)* `sitelen pona`
 
-7. If needed, go to your settings application and add a new input source of the name "English (sitelen pona)" 
+7. If needed, go to your settings application and add a new input source of the name "English (sitelen pona)"
 
     - Feel free to search for "sitelen pona" and select anything similar, if "English (sitelen pona)" is not present
 
@@ -268,7 +291,7 @@ nasin:
 	  - (<kbd>Win</kbd>+<kbd>R</kbd>, type `%appdata%` to get to `\Roaming`
 
     - macOS: `/Users/<user>/Library/Preferences/espanso/match/packages`
-	
+
     - Linux: `~/.config/espanso/match/packages`
 
 4. From where you've found your Espanso packages folder (`<wherever>/espanso/match/packages`), navigate to `<wherever>/espanso/config` and open the file `default.yml` in a text editor
@@ -402,7 +425,7 @@ Installation instructions are listed below by platform:
 
 8. On the next page, click <kbd>Install keyboard</kbd> -> <kbd>Install</kbd> -> <kbd>Done</kbd>.
 
-9. Swap to the Keyman keyboard and press the keyboard's globe icon to change to your sitelen pona input method. 
+9. Swap to the Keyman keyboard and press the keyboard's globe icon to change to your sitelen pona input method.
 
 10. o sitelen pona!
 
@@ -434,7 +457,7 @@ Three input engines for android exist:
 - jan Lepeka's (`@rebeccargb`) Keyman keyboards (refer to the [#Keyman](#Keyman) section)
 
 - [jan Komi's (`@cominixo`)](https://github.com/cominixo/tokiponakeyboard/releases/tag/v0.1-sp) (similar anu better APKs can be found in [this reddit post](https://www.reddit.com/r/tokipona/comments/10bwbur/guide_on_viewing_and_rendering_sitelen_pona_on/))
- 
+
     - When trying to install the APK, if you get an error that you cannot due to "package conflicts," delete the other Toki Pona Keyboard app and try again.
 
 - and [kulupu Mimuki's (`@.mouseless`)](./android_keyboard.zip) which can be used with [this app](https://play.google.com/store/apps/details?id=de.humbergsoftware.keyboarddesigner), but it requires a paid addon to import the file.
@@ -449,7 +472,7 @@ For instruction on installing Keyman sitelen pona keyboards, refer to the [#Keym
 
 - For installation instructions not requiring a jailbroken device, please refer to the "Sideloading Apps" section on [this page](https://ios.cfw.guide/sideloading-apps/#sideloading-apps).
 
-- A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with modifications listed below.  
+- A table for triggers -> words can be found on sona.pona.la, [here](https://sona.pona.la/wiki/Wakalito), with modifications listed below.
 
 <details>
 <summary>
